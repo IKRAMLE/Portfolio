@@ -60,7 +60,7 @@ margin-left: 20%;
   width: 80%;
   overflow-y: auto;
   padding: 3% 5%;
- 
+ letter-spacing: 3px;
 }
 .intro {
     height: 560px;
@@ -90,7 +90,7 @@ p{
     height: 50px;
 }
 .buttons{
-   margin-top: -256px;
+    padding-top: 15px;
    display: flex;
    gap: 1rem;
 }
@@ -102,5 +102,5 @@ p{
     text-decoration: none;
  }
 .buttons a:hover{
-   color:#859ed5;
+color:#859ed5;
 }

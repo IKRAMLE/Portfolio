@@ -183,8 +183,10 @@ h3 {
     width: 50px;
     height: 50px;
 }
-
+/* skills part */
+/* languages and framworks*/
 .skills-item {
+    margin-top: 60px;
     background-color: #eee6e6;
     padding: 50px;
     border-radius: 10px;
@@ -225,7 +227,7 @@ h3 {
     font-size: 2em;
     margin-bottom: 10px;
 }
-
+/* database and other*/
 .skills-item2 {
     margin-top: 60px;
     background-color: #eee6e6;
@@ -265,6 +267,8 @@ h3 {
     height: 90px;
     margin-bottom: 10px; 
 }
+
+/* labraries */
 
 .skills-item3 {
     margin-top: 60px;

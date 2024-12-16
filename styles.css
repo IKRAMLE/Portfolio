@@ -183,32 +183,47 @@ h3 {
     width: 50px;
     height: 50px;
 }
-.main-content { 
-    margin-left: 270px; 
-    padding: 20px; flex: 1; 
-} 
-h2 { font-size: 2em; margin-bottom: 20px;
+
+.skills-container .header4 {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
-.skills-container { 
-    display: flex; gap: 20px;
-     flex-wrap: wrap; 
-    } 
+
 .skills-item {
-     background-color: #c8c6c6; 
-     padding: 20px; 
-     border-radius: 10px;
-      width: 100%;
-       max-width: 350px;
-        box-sizing: border-box;
-     } 
-.skills-item h3 {
-     font-size: 1.5em;
-      margin-bottom: 10px;
-     } 
-.skills-item ul { 
+    background-color: #eee6e6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.skills-item h4 {
+    font-size: 1.5em;
+    margin-top: -17px;
+}
+
+.skills-item ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
     list-style: none;
-     padding: 0;
-     } 
+    padding: 0;
+}
+
 .skills-item ul li {
-     margin-bottom: 5px; 
-    }
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    font-size: 22px;
+    line-height: 3rem;
+    text-align: center; 
+}
+
+.skills-item ul li img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px; 
+}
+

@@ -184,11 +184,6 @@ h3 {
     height: 50px;
 }
 
-.skills-container .header4 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
 .skills-item {
     background-color: #eee6e6;
     padding: 50px;
@@ -226,4 +221,88 @@ h3 {
     height: 90px;
     margin-bottom: 10px; 
 }
+.skills-container .header4 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills-item2 {
+    margin-top: 60px;
+    background-color: #eee6e6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.skills-item2 h4 {
+    font-size: 1.5em;
+    margin-top: -17px;
+}
+
+.skills-item2 ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-item2 ul li {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 3rem;
+    text-align: center; 
+}
+
+.skills-item2 ul li img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px; 
+}
+
+.skills-item3 {
+    margin-top: 60px;
+    background-color: #eee6e6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.skills-item3 h4 {
+    font-size: 1.5em;
+    margin-top: -17px;
+}
+
+.skills-item3 ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-item3 ul li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 10px;
+    font-size: 22px;
+    line-height: 3rem;
+    text-align: center; 
+}
+
+.skills-item3 ul li img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px; 
+}
+
 

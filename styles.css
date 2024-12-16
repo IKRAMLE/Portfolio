@@ -84,7 +84,7 @@ p{
     display: flex;
     gap: 1rem;
 }
-.social img {
+.social img{
     border-radius: 80%;
     width: 50px;
     height: 50px;
@@ -161,6 +161,7 @@ h3 {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    padding: 18px 7px;
     transition: transform 0.3s ease;
 }
 
@@ -178,4 +179,36 @@ h3 {
     margin: 15px;
     color: #333;
 }
-
+.icons svg {
+    width: 50px;
+    height: 50px;
+}
+.main-content { 
+    margin-left: 270px; 
+    padding: 20px; flex: 1; 
+} 
+h2 { font-size: 2em; margin-bottom: 20px;
+}
+.skills-container { 
+    display: flex; gap: 20px;
+     flex-wrap: wrap; 
+    } 
+.skills-item {
+     background-color: #c8c6c6; 
+     padding: 20px; 
+     border-radius: 10px;
+      width: 100%;
+       max-width: 350px;
+        box-sizing: border-box;
+     } 
+.skills-item h3 {
+     font-size: 1.5em;
+      margin-bottom: 10px;
+     } 
+.skills-item ul { 
+    list-style: none;
+     padding: 0;
+     } 
+.skills-item ul li {
+     margin-bottom: 5px; 
+    }
